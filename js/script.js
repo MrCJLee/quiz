@@ -12,3 +12,15 @@ $(document).ready(function() {
     });
 
 });
+
+function question1(answer){
+    if (answer === "Pirate") {
+        return 100
+    } else if (answer ==="Marine"){
+        return 200
+    } else if (answer ==="Revolutionary"){
+        return 300
+    }
+     else
+        {return 0}
+}
